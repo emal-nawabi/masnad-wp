@@ -1,0 +1,309 @@
+0000.000 (0) Opened log file at time: Fri, 19 Nov 2021 18:35:05 +0000 on https://wpbackend.navisa.af
+0000.138 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.63 WP: 5.8.2 PHP: 7.2.34 (litespeed, Linux premium119.web-hosting.com 2.6.32-954.3.5.lve1.4.78.el6.x86_64 #1 SMP Thu Mar 26 08:20:27 EDT 2020 x86_64) MySQL: 10.3.31-MariaDB-log-cll-lve (max packet size=524288000) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 9.2M | 10M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.364 (0) Free space on disk containing Updraft's temporary directory: 1762812.5 MB
+0000.395 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.485 (0) Semaphore (fd, wpqs_options) being initialised
+0000.661 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.779 (0) Set semaphore last lock (fd) time to 2021-11-19 18:35:06
+0000.846 (0) Semaphore lock (fd) complete
+0001.355 (0) Backup run: resumption=0, nonce=c8d363454af7, file_nonce=c8d363454af7 begun at=1637346905 (2s ago), job type=backup
+0001.393 (0) Scheduling a resumption (1) after 300 seconds (1637347207) in case this run gets aborted
+0001.506 (0) Checking if we have a zip executable available
+0001.537 (0) Testing: /usr/bin/zip
+0001.626 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.656 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.675 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.734 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.891 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.942 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.954 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.991 (0) Working binary zip found: /usr/bin/zip
+0002.044 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0002.047 (0) Creation of backups of directories: beginning
+0002.223 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.121 (0) Total entities for the zip file: 737 directories, 4146 files (0 skipped as non-modified), 62.4 MB
+0004.149 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.185 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.202 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.227 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.250 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.287 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0004.296 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0004.303 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0004.310 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0004.315 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0004.385 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.3 MB, 4146 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0008.936 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: size is now: 6.00 MB
+0009.026 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1100 files added (on-disk size: 6173.3 KB)
+0009.059 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1200 files added (on-disk size: 6173.3 KB)
+0009.070 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1300 files added (on-disk size: 6173.3 KB)
+0009.093 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1400 files added (on-disk size: 6173.3 KB)
+0009.157 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1500 files added (on-disk size: 6173.3 KB)
+0009.194 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1600 files added (on-disk size: 6173.3 KB)
+0009.199 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1700 files added (on-disk size: 6173.3 KB)
+0009.205 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1800 files added (on-disk size: 6173.3 KB)
+0009.234 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 1900 files added (on-disk size: 6173.3 KB)
+0009.245 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2000 files added (on-disk size: 6173.3 KB)
+0009.255 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.8 MB, 4146 files batched, 1001 (2002) added so far); re-opening (prior size: 6173.3 KB)
+0013.979 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: size is now: 12.60 MB
+0014.180 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2100 files added (on-disk size: 12872.3 KB)
+0014.194 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2200 files added (on-disk size: 12872.3 KB)
+0014.218 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2300 files added (on-disk size: 12872.3 KB)
+0014.302 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2400 files added (on-disk size: 12872.3 KB)
+0014.312 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2500 files added (on-disk size: 12872.3 KB)
+0014.340 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2600 files added (on-disk size: 12872.3 KB)
+0014.345 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2700 files added (on-disk size: 12872.3 KB)
+0014.386 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2800 files added (on-disk size: 12872.3 KB)
+0014.392 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 2900 files added (on-disk size: 12872.3 KB)
+0014.427 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3000 files added (on-disk size: 12872.3 KB)
+0014.428 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.4 MB, 4146 files batched, 1001 (3003) added so far); re-opening (prior size: 12872.3 KB)
+0017.585 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: size is now: 17.30 MB
+0017.676 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3100 files added (on-disk size: 17727.9 KB)
+0017.704 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3200 files added (on-disk size: 17727.9 KB)
+0017.756 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3300 files added (on-disk size: 17727.9 KB)
+0017.793 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3400 files added (on-disk size: 17727.9 KB)
+0017.803 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3500 files added (on-disk size: 17727.9 KB)
+0017.843 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3600 files added (on-disk size: 17727.9 KB)
+0017.951 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3700 files added (on-disk size: 17727.9 KB)
+0017.979 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3800 files added (on-disk size: 17727.9 KB)
+0018.010 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 3900 files added (on-disk size: 17727.9 KB)
+0018.028 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 4000 files added (on-disk size: 17727.9 KB)
+0018.056 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.3 MB, 4146 files batched, 1001 (4004) added so far); re-opening (prior size: 17727.9 KB)
+0020.829 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: size is now: 23.80 MB
+0020.842 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.tmp: 4100 files added (on-disk size: 24359.9 KB)
+0021.731 (0) Creating zip file manifest (/home/web21masnad/wpbackend.navisa.af/wp-content/updraft/backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.list-temp.tmp)
+0021.775 (0) Successfully created zip file manifest (size: 367103)
+0022.158 (0) Created plugins zip (0) - 24559.6 KB in 19.7 s (1245.2 KB/s) (sha1: 782e3401fade88a79144320471eff9797248910b, sha256: 006a75c268d710fdf17afd0c1bb94db80fc061dc8e12d1f41e43dd48da605b58)
+0022.164 (0) Beginning creation of dump of themes (split every: 400 MB)
+0022.471 (0) Total entities for the zip file: 92 directories, 346 files (0 skipped as non-modified), 6.5 MB
+0022.487 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.494 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.501 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0023.620 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip.tmp: size is now: 4.10 MB
+0023.636 (0) Creating zip file manifest (/home/web21masnad/wpbackend.navisa.af/wp-content/updraft/backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip.list-temp.tmp)
+0023.640 (0) Successfully created zip file manifest (size: 23153)
+0023.724 (0) Created themes zip (0) - 4153.7 KB in 1.5 s (2800.6 KB/s) (sha1: 13262837ab918b49f028fbf56771f7d3eb83d641, sha256: 428a1c903423768eec3bf54d580e89d22cfeb5e523268089471a24e4359f865a)
+0023.731 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0023.733 (0) Looking for candidates to backup in: /home/web21masnad/wpbackend.navisa.af/wp-content/uploads
+0023.752 (0) finding files: wpforms: adding to list (1)
+0023.754 (0) finding files: 2021: adding to list (2)
+0023.754 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0023.883 (0) Total entities for the zip file: 8 directories, 192 files (0 skipped as non-modified), 8.4 MB
+0023.887 (0) Zip: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.649 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip.tmp: size is now: 8.20 MB
+0024.694 (0) Creating zip file manifest (/home/web21masnad/wpbackend.navisa.af/wp-content/updraft/backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip.list-temp.tmp)
+0024.752 (0) Successfully created zip file manifest (size: 10570)
+0024.902 (0) Created uploads zip (0) - 8395.4 KB in 1.1 s (7923.5 KB/s) (sha1: f46bd5327ec0289a090f15e80a2881cce15a09b1, sha256: cedd253d5202e7fcebfbc27f50c3d73835c0c6d4c1e4a6ff5aebfbf92b7051b3)
+0024.906 (0) Beginning backup of other directories found in the content directory (index: 0)
+0024.907 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0024.908 (0) Looking for candidates to backup in: /home/web21masnad/wpbackend.navisa.af/wp-content
+0024.929 (0) finding files: index.php: adding to list (1)
+0024.930 (0) finding files: plugins: skipping: this is the plugins directory
+0024.945 (0) finding files: uploads: skipping: this is the uploads directory
+0024.958 (0) finding files: upgrade: skipping: excluded by options
+0024.983 (0) finding files: updraft: skipping: this is the updraft directory
+0024.991 (0) finding files: themes: skipping: this is the themes directory
+0025.091 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0025.108 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-others.zip.tmp: size is now: 0.00 MB
+0025.113 (0) Creating zip file manifest (/home/web21masnad/wpbackend.navisa.af/wp-content/updraft/backup_2021-11-19-1835_Masnad_Web_c8d363454af7-others.zip.list-temp.tmp)
+0025.156 (0) Successfully created zip file manifest (size: 43)
+0025.162 (0) Created others zip (0) - 0.2 KB in 0.1 s (2.6 KB/s) (sha1: b222933266fd88ad95f94548da95fecf5ce9a9b9, sha256: d35a9d5310eac2440d923434dded5d68c310f6be0f1340244fe45d835abb9e4e)
+0025.184 (0) Saving backup status to database (elements: 8)
+0025.268 (0) Beginning creation of database dump (WordPress DB)
+0025.306 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0025.382 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0025.546 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpqs_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1555 bytes total)
+0025.548 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0025.722 (0) Table wpqs_options: Total expected rows (via COUNT): 427
+0025.758 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.932 (0) Table wpqs_options: Rows added in this batch (next record: 2421): 423 (uncompressed bytes in this segment=896809) in 0.25 seconds
+0025.993 (0) Table wpqs_options: finishing file(s) (2, 243.4 KB)
+0026.133 (0) Table wpqs_users: Total expected rows (via COUNT): 1
+0026.144 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.195 (0) Table wpqs_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1402) in 0.09 seconds
+0026.268 (0) Table wpqs_users: finishing file(s) (2, 0.6 KB)
+0026.376 (0) Table wpqs_usermeta: Total expected rows (via COUNT): 24
+0026.385 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.415 (0) Table wpqs_usermeta: Rows added in this batch (next record: 25): 24 (uncompressed bytes in this segment=2289) in 0.09 seconds
+0026.510 (0) Table wpqs_usermeta: finishing file(s) (2, 1.1 KB)
+0026.577 (0) Table wpqs_actionscheduler_actions: Total expected rows (via COUNT): 37
+0026.578 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.623 (0) Table wpqs_actionscheduler_actions: Rows added in this batch (next record: 128): 37 (uncompressed bytes in this segment=17545) in 0.09 seconds
+0026.715 (0) Table wpqs_actionscheduler_actions: finishing file(s) (2, 1.8 KB)
+0026.770 (0) Table wpqs_actionscheduler_claims: Total expected rows (via COUNT): 0
+0026.796 (0) Table wpqs_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.08 seconds
+0026.810 (0) Table wpqs_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0026.911 (0) Table wpqs_actionscheduler_groups: Total expected rows (via COUNT): 3
+0026.915 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.970 (0) Table wpqs_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=742) in 0.11 seconds
+0027.004 (0) Table wpqs_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0027.038 (0) Table wpqs_actionscheduler_logs: Total expected rows (via COUNT): 103
+0027.046 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.155 (0) Table wpqs_actionscheduler_logs: Rows added in this batch (next record: 316): 103 (uncompressed bytes in this segment=9722) in 0.12 seconds
+0027.198 (0) Table wpqs_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0027.380 (0) Table wpqs_commentmeta: Total expected rows (via COUNT): 0
+0027.391 (0) Table wpqs_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.14 seconds
+0027.418 (0) Table wpqs_commentmeta: finishing file(s) (2, 0.4 KB)
+0027.437 (0) Table wpqs_comments: Total expected rows (via COUNT): 1
+0027.489 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.515 (0) Table wpqs_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2143) in 0.08 seconds
+0027.531 (0) Table wpqs_comments: finishing file(s) (2, 0.7 KB)
+0027.548 (0) Table wpqs_links: Total expected rows (via COUNT): 0
+0027.638 (0) Table wpqs_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1318) in 0.09 seconds
+0027.651 (0) Table wpqs_links: finishing file(s) (2, 0.5 KB)
+0027.745 (0) Table wpqs_postmeta: Total expected rows (via COUNT): 665
+0027.769 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.829 (0) Table wpqs_postmeta: Rows added in this batch (next record: 736): 665 (uncompressed bytes in this segment=184129) in 0.16 seconds
+0027.943 (0) Table wpqs_postmeta: finishing file(s) (2, 44.7 KB)
+0028.107 (0) Table wpqs_posts: Total expected rows (via COUNT): 155
+0028.111 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.174 (0) Table wpqs_posts: Rows added in this batch (next record: 176): 155 (uncompressed bytes in this segment=63743) in 0.17 seconds
+0028.258 (0) Table wpqs_posts: finishing file(s) (2, 9.8 KB)
+0028.277 (0) Table wpqs_term_relationships: Total expected rows (approximate): 1
+0028.301 (0) Table wpqs_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=710) in 0.02 seconds
+0028.336 (0) Table wpqs_term_relationships: finishing file(s) (2, 0.4 KB)
+0028.389 (0) Table wpqs_term_taxonomy: Total expected rows (via COUNT): 1
+0028.391 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.401 (0) Table wpqs_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=934) in 0.03 seconds
+0028.418 (0) Table wpqs_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0028.491 (0) Table wpqs_termmeta: Total expected rows (via COUNT): 0
+0028.502 (0) Table wpqs_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.07 seconds
+0028.527 (0) Table wpqs_termmeta: finishing file(s) (2, 0.4 KB)
+0028.596 (0) Table wpqs_terms: Total expected rows (via COUNT): 1
+0028.618 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.641 (0) Table wpqs_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=748) in 0.06 seconds
+0028.662 (0) Table wpqs_terms: finishing file(s) (2, 0.4 KB)
+0028.670 (0) Table wpqs_loginizer_logs: Total expected rows (approximate): 0
+0028.693 (0) Table wpqs_loginizer_logs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=613) in 0.02 seconds
+0028.698 (0) Table wpqs_loginizer_logs: finishing file(s) (2, 0.3 KB)
+0028.803 (0) Table wpqs_wpforms_tasks_meta: Total expected rows (via COUNT): 23
+0028.810 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.847 (0) Table wpqs_wpforms_tasks_meta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=2489) in 0.12 seconds
+0028.865 (0) Table wpqs_wpforms_tasks_meta: finishing file(s) (2, 0.7 KB)
+0028.888 (0) Table wpqs_wpmailsmtp_debug_events: Total expected rows (via COUNT): 0
+0028.911 (0) Table wpqs_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=745) in 0.03 seconds
+0028.941 (0) Table wpqs_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0029.023 (0) Table wpqs_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 21
+0029.025 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.037 (0) Table wpqs_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=2442) in 0.03 seconds
+0029.099 (0) Table wpqs_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.7 KB)
+0029.102 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_options.table.tmpr2422.gz (1/20/fopen): adding to final database dump
+0029.111 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_options.table.gz (2/20/fopen): adding to final database dump
+0029.112 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_users.table.tmpr2.gz (3/20/fopen): adding to final database dump
+0029.119 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_users.table.gz (4/20/fopen): adding to final database dump
+0029.120 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_usermeta.table.tmpr26.gz (5/20/fopen): adding to final database dump
+0029.121 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_usermeta.table.gz (6/20/fopen): adding to final database dump
+0029.122 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_actionscheduler_actions.table.tmpr129.gz (7/20/fopen): adding to final database dump
+0029.123 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_actionscheduler_actions.table.gz (8/20/fopen): adding to final database dump
+0029.126 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_actionscheduler_claims.table.tmpr0.gz (9/20/fopen): adding to final database dump
+0029.139 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_actionscheduler_claims.table.gz (10/20/fopen): adding to final database dump
+0029.161 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_actionscheduler_groups.table.tmpr4.gz (11/20/fopen): adding to final database dump
+0029.162 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_actionscheduler_groups.table.gz (12/20/fopen): adding to final database dump
+0029.163 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_actionscheduler_logs.table.tmpr317.gz (13/20/fopen): adding to final database dump
+0029.164 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_actionscheduler_logs.table.gz (14/20/fopen): adding to final database dump
+0029.165 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_commentmeta.table.tmpr0.gz (15/20/fopen): adding to final database dump
+0029.166 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_commentmeta.table.gz (16/20/fopen): adding to final database dump
+0029.167 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_comments.table.tmpr2.gz (17/20/fopen): adding to final database dump
+0029.168 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_comments.table.gz (18/20/fopen): adding to final database dump
+0029.192 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_links.table.tmpr0.gz (19/20/fopen): adding to final database dump
+0029.211 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_links.table.gz (20/20/fopen): adding to final database dump
+0029.217 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_postmeta.table.tmpr737.gz (21/20/fopen): adding to final database dump
+0029.232 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_postmeta.table.gz (22/20/fopen): adding to final database dump
+0029.264 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_posts.table.tmpr177.gz (23/20/fopen): adding to final database dump
+0029.270 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_posts.table.gz (24/20/fopen): adding to final database dump
+0029.284 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_term_relationships.table.tmpr100001.gz (25/20/fopen): adding to final database dump
+0029.295 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_term_relationships.table.gz (26/20/fopen): adding to final database dump
+0029.315 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_term_taxonomy.table.tmpr2.gz (27/20/fopen): adding to final database dump
+0029.320 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_term_taxonomy.table.gz (28/20/fopen): adding to final database dump
+0029.321 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_termmeta.table.tmpr0.gz (29/20/fopen): adding to final database dump
+0029.322 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_termmeta.table.gz (30/20/fopen): adding to final database dump
+0029.323 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_terms.table.tmpr2.gz (31/20/fopen): adding to final database dump
+0029.325 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_terms.table.gz (32/20/fopen): adding to final database dump
+0029.326 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_loginizer_logs.table.tmpr1.gz (33/20/fopen): adding to final database dump
+0029.327 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_loginizer_logs.table.gz (34/20/fopen): adding to final database dump
+0029.328 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_wpforms_tasks_meta.table.tmpr24.gz (35/20/fopen): adding to final database dump
+0029.329 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_wpforms_tasks_meta.table.gz (36/20/fopen): adding to final database dump
+0029.330 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_wpmailsmtp_debug_events.table.tmpr0.gz (37/20/fopen): adding to final database dump
+0029.331 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_wpmailsmtp_debug_events.table.gz (38/20/fopen): adding to final database dump
+0029.332 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_wpmailsmtp_tasks_meta.table.tmpr22.gz (39/20/fopen): adding to final database dump
+0029.333 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db-table-wpqs_wpmailsmtp_tasks_meta.table.gz (40/20/fopen): adding to final database dump
+0029.358 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db.gz: finished writing out complete database file (309 KB)
+0029.371 (0) Total database tables backed up: 20 (backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db.gz, size: 316568, sha1: 422c1302060ac2405951f6a9072de4c9fca43d73, sha256: c85047bf751c5f68723e25565432bd3012df5d4d9af661e2799d064dea184b61)
+0029.384 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0029.385 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0029.387 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0029.388 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0029.388 (0) backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0029.389 (0) Saving backup history. Total backup size: 36.5 MB
+0029.394 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0029.410 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0029.429 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7dba598c1822cfeaabc11013cdfd7fdf)
+0030.477 (0) Google Drive: creating path: /UpdraftPlus
+0031.950 (0) Google Drive: quota usage: used=10 MB, total=15360 MB, available=15350 MB
+0031.958 (0) Google Drive: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Wl2xGA16qxwjtBudGs_jiQdWbnfd9r4S)
+0034.585 (0) Googledrive chunked upload: 4.2 % uploaded (1048576)
+0036.689 (0) Googledrive chunked upload: 8.3 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 10.2 / 18)
+0040.691 (0) Googledrive chunked upload: 16.7 % uploaded (4194304)
+0043.931 (0) Googledrive chunked upload: 25 % uploaded (6291456)
+0046.300 (0) Googledrive chunked upload: 33.4 % uploaded (8388608 - increasing chunk size to 4096 KB - memory usage: 10.2 / 18)
+0049.657 (0) Googledrive chunked upload: 50 % uploaded (12582912)
+0052.629 (0) Googledrive chunked upload: 66.7 % uploaded (16777216)
+0055.451 (0) Googledrive chunked upload: 83.4 % uploaded (20971520)
+0059.528 (0) Googledrive chunked upload: 100 % uploaded (20971520)
+0059.536 (0) Google Drive: OK: Archive backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip uploaded in 27.54 seconds
+0059.537 (0) Recording as successfully uploaded: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip
+0059.540 (0) Deleting local file: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip: OK
+0059.541 (0) Deleting zip manifest (backup_2021-11-19-1835_Masnad_Web_c8d363454af7-plugins.zip.list.tmp)
+0060.049 (0) Google Drive: quota usage: used=34 MB, total=15360 MB, available=15326 MB
+0060.050 (0) Google Drive: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip: Attempting to upload to Google Drive (into folder id: 1Wl2xGA16qxwjtBudGs_jiQdWbnfd9r4S)
+0062.090 (0) Googledrive chunked upload: 24.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 10.2 / 18)
+0064.014 (0) Googledrive chunked upload: 74 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 10.2 / 18)
+0066.109 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0066.113 (0) Google Drive: OK: Archive backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip uploaded in 6.06 seconds
+0066.113 (0) Recording as successfully uploaded: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip
+0066.117 (0) Deleting local file: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip: OK
+0066.118 (0) Deleting zip manifest (backup_2021-11-19-1835_Masnad_Web_c8d363454af7-themes.zip.list.tmp)
+0066.545 (0) Google Drive: quota usage: used=38 MB, total=15360 MB, available=15322 MB
+0066.547 (0) Google Drive: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Wl2xGA16qxwjtBudGs_jiQdWbnfd9r4S)
+0068.655 (0) Googledrive chunked upload: 12.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 10.2 / 18)
+0074.426 (0) Googledrive chunked upload: 36.6 % uploaded (3145728)
+0134.441 (0) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: /home/web21masnad/wpbackend.navisa.af/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0136.457 (0) Googledrive chunked upload: 12.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 12.3 / 22)
+0138.442 (0) Googledrive chunked upload: 36.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 12.3 / 22)
+0140.922 (0) Googledrive chunked upload: 85.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 12.3 / 22)
+0143.276 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0143.286 (0) Google Drive: OK: Archive backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip uploaded in 76.74 seconds
+0143.290 (0) Recording as successfully uploaded: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip
+0143.298 (0) Deleting local file: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip: OK
+0143.324 (0) Deleting zip manifest (backup_2021-11-19-1835_Masnad_Web_c8d363454af7-uploads.zip.list.tmp)
+0143.806 (0) Google Drive: quota usage: used=46.2 MB, total=15360 MB, available=15313.8 MB
+0143.808 (0) Google Drive: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-others.zip: Attempting to upload to Google Drive (into folder id: 1Wl2xGA16qxwjtBudGs_jiQdWbnfd9r4S)
+0145.753 (0) Googledrive chunked upload: 100 % uploaded
+0145.809 (0) Google Drive: OK: Archive backup_2021-11-19-1835_Masnad_Web_c8d363454af7-others.zip uploaded in 1.98 seconds
+0145.853 (0) Recording as successfully uploaded: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-others.zip
+0145.942 (0) Deleting local file: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-others.zip: OK
+0145.987 (0) Deleting zip manifest (backup_2021-11-19-1835_Masnad_Web_c8d363454af7-others.zip.list.tmp)
+0146.576 (0) Google Drive: quota usage: used=46.2 MB, total=15360 MB, available=15313.8 MB
+0146.591 (0) Google Drive: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db.gz: Attempting to upload to Google Drive (into folder id: 1Wl2xGA16qxwjtBudGs_jiQdWbnfd9r4S)
+0148.815 (0) Googledrive chunked upload: 100 % uploaded
+0148.832 (0) Google Drive: OK: Archive backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db.gz uploaded in 2.22 seconds
+0148.833 (0) Recording as successfully uploaded: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db.gz
+0148.861 (0) Deleting local file: backup_2021-11-19-1835_Masnad_Web_c8d363454af7-db.gz: OK
+0148.866 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0148.878 (0) Number of backup sets in history: 1; groups (db): 1
+0148.885 (0) Examining (for databases) backup set with group_id=0, nonce=c8d363454af7, datestamp=1637346905 (Nov 19 2021 18:35:05)
+0148.887 (0) This backup set is the backup set just made, so will not be deleted.
+0148.887 (0) Number of backup sets in history: 1; groups (files): 1
+0148.895 (0) Examining (for files) backup set with nonce=c8d363454af7, datestamp=1637346905 (Nov 19 2021 18:35:05)
+0148.895 (0) This backup set is the backup set just made, so will not be deleted.
+0148.910 (0) This backup set is the backup set just made, so will not be deleted.
+0148.910 (0) This backup set is the backup set just made, so will not be deleted.
+0148.910 (0) This backup set is the backup set just made, so will not be deleted.
+0148.910 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0148.912 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0148.937 (0) Resume backup (c8d363454af7, 0): finish run
+0148.963 (0) Decremented the semaphore (fd) by 1
+0148.967 (0) Semaphore (fd) unlocked
+0148.968 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0148.979 (0) No email will/can be sent - the user has not configured an email address.
+0148.981 (0) The backup apparently succeeded and is now complete
